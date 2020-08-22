@@ -13,7 +13,7 @@ import com.morseit.messaging.model.PrivateMessage;
 import com.morseit.messaging.utility.MorseItConstants;
 
 @RestController
-public class MorseItChatHandler {
+public class MorseItChatPushHandler {
 	@Autowired
 	private KafkaTemplate<String, PrivateMessage> kafkaMessageTemplate;
 
